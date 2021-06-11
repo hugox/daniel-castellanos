@@ -1,0 +1,559 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/*
+* GENERAL STYLES
+*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+section h1 {
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	line-height: 2em;
+	letter-spacing: 0.2px;
+	color: #0d4fa3;
+	margin-bottom: 1em;
+}
+
+/*
+*HEADER 
+*/
+
+header {
+	background-color: #fff;
+}
+header img {
+	width: 160px;
+  margin: 0 0 0 2em;
+}
+nav {
+  float: right;
+}
+ul {
+	list-style: none;
+}
+nav ul {
+  margin: 3em 3em;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+	text-transform: uppercase;
+	color: #0d4fa3;
+	margin: 0.5em;
+	font-size: 13pt;
+	line-height: 13pt;
+	font-family: 'Montserrat', sans-serif;
+}
+nav li a:hover {
+	/*color: #debf5a;*/
+  color: #B8860B;
+  border-bottom: 1px solid #B8860B;
+}
+section.hero {
+	background: transparent url("../images/background.jpg") center top no-repeat;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  height: 469px;
+}
+.intro-copy strong {
+	font-size: 2.2em;
+}
+h1.intro-copy {
+	font-size: 2em;
+	line-height: 1.5em;
+  padding: 5em 12% 0;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: inherit;
+  color: #B8860B;
+  opacity: 0.8;
+}
+p.intro-copy {
+  font-size: 2em;
+  line-height: 1.5em;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: inherit;
+  padding: 0.5em 12% 0;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+li {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*
+* SECTION ABOUT
+*/
+
+section#about {
+	padding: 35px 13%;
+	background-color: #f6f7f7;
+}
+section#about p {
+	font-size: 14pt;
+	line-height: 20pt;
+	letter-spacing: 0.05px;
+	margin-bottom: 0.5em;
+	color: #212121;
+}
+
+strong.gold {
+  color: #B8860B;
+  font-size: 16pt;
+}
+
+/*
+* SECTION OUR TEAM
+*/
+
+section.our-team {
+  padding: 0 0 60px 0;
+	background-color: #f6f7f7;
+}
+section.our-team .team {
+  overflow: auto;
+  text-align: left;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.our-team ul.container {
+	padding: 5px 8%;
+}
+.our-team .member {
+  float: left;
+  margin-right: 2%;
+  width: 23%;
+  list-style: none;
+}
+.our-team .member.first {
+	width: 100%;
+}
+.member img {
+  height: 255px;
+  width: 175px;
+  margin-bottom: 10px;
+  display: block;
+  margin: 1em auto;
+  border-radius: 15%;
+  box-shadow: #fff 0 0 0 6px, #bbbbbb 0 0 0 3px;
+}
+.member h2 {
+	text-align: center;
+	font-weight: 600;
+	font-size: 13pt;
+  margin-bottom: 0.2em;
+  line-height: 13pt;
+}
+.member p {
+	text-align: center;
+}
+
+/*
+* SECTION COMPANIES
+*/
+
+section.companies {
+	padding: 30px 2%;
+}
+section.companies .insurances {
+	overflow: auto;
+  text-align: left;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.companies ul.container {
+	padding: 3em 7%;
+}
+.companies .company {
+  float: left;
+  margin-right: 2%;
+  width: 18%;
+  list-style: none;
+}
+section.companies ul.container img {
+	margin: 0 auto;
+	display: block;
+} 
+section.companies ul.container img.logo-mapfre-resize {
+  width: 172px;
+  height: 60px;
+} 
+section.companies ul.container p {
+	margin-top: 1em;
+	text-align: center;
+  line-height: 16pt;
+  letter-spacing: 0.3px;
+}
+section.companies ul.container p.info-mapfre {
+  margin-top: 1.3em;
+}
+
+/*
+* SECTION INFO
+*/
+
+section.info {
+	background-color: #1F4180;
+  color: #fff;
+  padding: 35px 10%;
+}
+section.info h2.quote {
+  font-size: 18pt;
+  line-height: 21pt;
+  text-align: center;
+  padding: 0 11%;
+}
+ul.check-list {
+  list-style-image: url("../images/icon-check.svg");
+  list-style-position: outside;
+  padding: 10px 40%;
+  margin-top: 1em;
+}
+ul.check-list li {
+	font-size: 15pt;
+	line-height: 18pt;
+	text-align: left;
+	margin-bottom: 0.2em;
+}
+
+strong {
+	font-weight: bold;
+}
+
+/*
+* SECTION INSURANCE
+*/
+
+section#insurance,
+.container.even.services {
+	background-color: #f6f7f7;
+}
+section#insurance {
+	padding: 30px 0;
+}
+section#insurance h1 {
+	margin: 0;
+}
+section.container {
+  padding: 0 11%;
+  overflow: auto;
+}
+section.container div.column {
+  float: left;
+  width: 30%;
+  margin-right: 3.5%;
+}
+section.container div.column.last {
+  margin: 0;
+}
+article.card-insurance {
+  list-style: none;
+  min-height: 14em;
+  background-color: #fff;
+  margin: 0 0 10% 0;
+  padding: 7% 5%;
+  border-color: #f7f9fb #f1f4f5 #e6e9ea #f1f4f5;
+  -webkit-box-shadow: 0 1px 0 0 #f1f4f5;
+  box-shadow: 0 4px 4px 0 #f1f4f5;
+}
+article.card-insurance img {
+  width: 42px;
+  height: 42px;
+  display: block;
+  margin: 0.6px auto;	
+}
+article.card-insurance img.car {
+  width: 48px;
+} 
+article.card-insurance img.truck {
+  width: 62px;
+}
+article.card-insurance img.boat {
+  width: 52px;
+}
+article.card-insurance h2 {
+	margin: 0.5em 0 1em 0;
+  font-size: 14pt;
+  line-height: 14pt;
+  text-align: center;
+  color: #1F4180;
+  border-bottom: 2px solid #f1f1f1;
+  padding: 0 0 4% 0;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+article.card-insurance p {
+	color: #212121;
+	font-size: 12pt;
+  line-height: 12pt;
+  margin-bottom: 1em;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+.bulleted-list li {
+  text-align: left;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  padding-left: 16%;
+  margin-top: 0.5em;
+}
+.bulleted-list li:before {
+  position: absolute;
+  left: 26px;
+  top: -1px;
+  content: "• ";
+  font-size: 23px;
+  color: #1F4180;
+}
+
+/*
+* SECTION GET IN TOUCH
+*/
+
+section.get-in-touch {
+  text-align: center;
+}
+section.get-in-touch h2 {
+  margin-top: 0.5em;
+}
+section.get-in-touch h3 {
+  font-size: 16pt;
+  line-height: 16pt;
+  margin-bottom: 0.2em;
+}
+.btn.btn-center {
+  text-align: center;
+  margin-top: 1.5em;
+}
+.btn {
+  border: solid 2px #fff;
+  padding: 1em 3%;
+  color: #fff;
+  background-color: #1F4180;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-bottom: 1.5em;
+  display: inline-block;
+}
+a.btn:hover {
+  color: #B8860B;
+  border: solid 2px #B8860B;
+}
+
+/*
+* FOOTER ONE
+*/
+
+footer div.footer-one {
+  padding: 35px 15%;
+  text-align: center;
+  background-color: #fff;
+}
+footer div.footer-one h2 {
+  font-size: 14pt;
+  line-height: 14pt;
+  font-weight: 600;
+  margin: 0.5em 0;
+}
+footer div.footer-one p {
+  font-size: 13pt;
+  line-height: 17pt;
+  letter-spacing: 0.2px;
+}
+
+/*
+* FOOTER TWO
+*/
+
+footer div.footer-two {
+  padding: 45px 11%;
+  overflow: auto;
+  background-color: #f6f7f7;
+}
+footer div#map {
+	height: 400px;
+  width: 45%;
+	background-color: #ccc;
+  float: left;
+}
+footer div.footer-two img {
+  float: right;
+  height: 400px;
+  width: 50%;
+}
+
+/*
+* MEDIA QUERIES
+*/
+
+@media screen and (max-width: 1200px) {
+    .intro-copy strong {
+        font-size: 42pt;
+    }
+    p.intro-copy {
+        font-size: 20pt;
+    }
+    section#about {
+        padding: 35px 7%;
+    }
+    section.our-team ul.container {
+        padding: 5px 4%;
+    }
+    .member img {
+        height: 223px;
+        width: 166px;
+    }
+    section.companies {
+        padding: 30px 0%;
+    }
+    section.companies ul.container {
+        padding: 3em 4%;
+    }
+    section.info {  
+        padding: 35px 0%;
+    }
+    ul.check-list {
+        padding: 10px 32%;
+    }
+    section.container {
+        padding: 0 4%;
+    }
+    footer div.footer-one {
+        padding: 35px 0%;
+    }
+    footer div.footer-two {
+        padding: 45px 6%;
+    }
+}
+@media screen and (max-width: 700px) {
+    header img {
+        width: 145px;
+        margin: 0.5em;
+    }
+    nav ul {
+        margin: 3em 1em;
+    }
+    nav li a {
+        font-size: 12pt;
+        line-height: 12pt;
+    }
+    h1.intro-copy {
+        padding: 4em 0%;
+    }
+    section.companies ul.container {
+        padding: 0em 0%;
+    }
+    .our-team .member {
+        float: none;
+        width: 100%;
+    }
+    .companies .company {
+        float: none;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+    section.companies ul.container p {
+        line-height: 16pt;
+    }
+    section.info h2.quote {
+        padding: 0 6%;
+    }
+    ul.check-list {
+        padding: 10px 33%;
+    }
+    section.container div.column {
+        float: none;
+        width: 100%;
+    }
+    article.card-insurance {
+        padding: 4% 3%;
+        min-height: 0;
+    }
+    article.card-insurance h2 {
+        margin: 0.5em 0 1em 7%;
+    }
+    footer div.footer-two {
+        padding: 0;
+    }
+    footer div#map {
+        margin: 2em 0;
+        float: none;
+    }
+    footer div.footer-two {
+        padding: 0 14%;
+    }
+    footer div.footer-two img {
+        float: none;
+        width: 500px;
+    }
+}
+@media screen and (max-width: 450px) {
+    header img {
+        margin: 0 auto;
+        display: block;
+    }
+    nav {
+        float: none;
+    }
+    nav ul {
+        display: block;
+        margin: 1em auto;
+    }
+    nav li {
+        display: block;
+        text-align: center;
+        margin: 0.5em 0;
+    }
+    h1.intro-copy {
+        padding: 45px 0;
+    }
+    .intro-copy strong {
+        font-weight: 100;
+        font-size: 34pt;
+        line-height: 34pt;
+    }
+    section.info h2.quote {
+        padding: 0 2%;
+    }
+    ul.check-list {
+        padding: 10px 15%;
+    }
+    article.card-insurance {
+        padding: 5% 7%;
+    }
+    article.card-insurance h2 {
+        margin: 0.5em 0 1em 11%;
+    }
+    footer div#map {
+        width: 100%;
+    }
+    footer div.footer-two img {
+        width: 100%;
+        height: auto;
+    }
+    footer div.footer-two {
+        padding: 0px 11%;
+    }
+}
+
+	
